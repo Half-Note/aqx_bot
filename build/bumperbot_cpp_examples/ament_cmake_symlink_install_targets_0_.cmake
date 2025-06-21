@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_cpp_examples/simple_action_server_node" "TARGETS" "simple_action_server_node" "DESTINATION" "lib/bumperbot_cpp_examples")

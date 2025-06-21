@@ -1,0 +1,1 @@
+/home/fahad/bumperbot_ws/build/bumperbot_mapping/ament_cmake_environment_hooks/pythonpath.sh

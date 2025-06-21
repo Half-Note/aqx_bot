@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_localization/odometry_motion_model" "TARGETS" "odometry_motion_model" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fahad/bumperbot_ws/build/bumperbot_controller
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable noisy_controller[0m
+[ 50%] Built target noisy_controller
+[ 66%] [32m[1mLinking CXX executable simple_controller[0m
+[ 66%] Built target simple_controller
+[ 83%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[100%] [32m[1mLinking CXX executable twist_relay[0m
+[100%] Built target twist_relay
+[100%] Built target ament_cmake_python_symlink_bumperbot_controller
+running egg_info
+creating bumperbot_controller.egg-info
+writing bumperbot_controller.egg-info/PKG-INFO
+writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+writing top-level names to bumperbot_controller.egg-info/top_level.txt
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+Listing '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py'...
+Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py'...
+Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py'...

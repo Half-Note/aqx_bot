@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_mapping/mapping_with_known_poses" "TARGETS" "mapping_with_known_poses" "DESTINATION" "lib/bumperbot_mapping")

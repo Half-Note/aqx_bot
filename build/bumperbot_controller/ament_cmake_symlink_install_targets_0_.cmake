@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_controller/simple_controller" "/home/fahad/bumperbot_ws/build/bumperbot_controller/noisy_controller" "/home/fahad/bumperbot_ws/build/bumperbot_controller/twist_relay" "TARGETS" "simple_controller" "noisy_controller" "twist_relay" "DESTINATION" "lib/bumperbot_controller")

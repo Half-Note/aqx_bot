@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_localization/kalman_filter" "/home/fahad/bumperbot_ws/build/bumperbot_localization/imu_republisher" "/home/fahad/bumperbot_ws/build/bumperbot_localization/odometry_motion_model" "TARGETS" "kalman_filter" "imu_republisher" "odometry_motion_model" "DESTINATION" "lib/bumperbot_localization")

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fahad/bumperbot_ws/build/bumperbot_navigation
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation.xml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation_w_replanning.xml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation_w_replanning_and_recovery.xml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/behavior_server.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/bt_navigator.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/controller_server.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/costmap.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/planner_server.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/smoother_server.yaml
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch/navigation.launch.py
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/parent_prefix_path/bumperbot_navigation
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.bash
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.sh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.zsh
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.dsv
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/ament_index/resource_index/packages/bumperbot_navigation
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig.cmake
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig-version.cmake
+-- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.xml

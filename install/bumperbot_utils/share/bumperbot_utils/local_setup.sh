@@ -1,0 +1,1 @@
+/home/fahad/bumperbot_ws/build/bumperbot_utils/ament_cmake_environment_hooks/local_setup.sh

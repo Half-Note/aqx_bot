@@ -1,0 +1,106 @@
+[0.028s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_controller
+[0.211s] -- The C compiler identification is GNU 13.3.0
+[0.305s] -- The CXX compiler identification is GNU 13.3.0
+[0.338s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.567s] -- Detecting CXX compiler ABI info
+[0.798s] -- Detecting CXX compiler ABI info - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.818s] -- Detecting CXX compile features
+[0.821s] -- Detecting CXX compile features - done
+[0.825s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.087s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.254s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.338s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.373s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.563s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.576s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.747s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.931s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.941s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.008s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.047s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.119s] -- Found tf2_ros: 0.36.11 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.710s] -- Configuring done (2.7s)
+[2.747s] -- Generating done (0.0s)
+[2.761s] -- Build files have been written to: /home/fahad/bumperbot_ws/build/bumperbot_controller
+[2.783s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_controller
+[2.787s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_controller -- -j2 -l2
+[2.897s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.932s] [ 33%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[28.158s] [ 50%] [32m[1mLinking CXX executable noisy_controller[0m
+[29.371s] [ 50%] Built target noisy_controller
+[36.972s] [ 66%] [32m[1mLinking CXX executable simple_controller[0m
+[38.455s] [ 66%] Built target simple_controller
+[38.510s] [ 83%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[63.615s] [100%] [32m[1mLinking CXX executable twist_relay[0m
+[64.455s] [100%] Built target twist_relay
+[64.550s] [100%] Built target ament_cmake_python_symlink_bumperbot_controller
+[65.063s] running egg_info
+[65.066s] creating bumperbot_controller.egg-info
+[65.107s] writing bumperbot_controller.egg-info/PKG-INFO
+[65.110s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[65.110s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[65.110s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[65.239s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[65.240s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[65.308s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[65.351s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_controller -- -j2 -l2
+[65.352s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_controller
+[65.390s] -- Install configuration: ""
+[65.392s] -- Execute custom install script
+[65.393s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[65.427s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[65.456s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[65.503s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[65.530s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[65.561s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[65.591s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[65.621s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+[65.646s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[65.690s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[65.713s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[65.741s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[65.792s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[65.829s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[65.871s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[65.899s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[65.935s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[65.967s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[66.002s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[66.025s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[66.053s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[66.090s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[66.119s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[66.154s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[66.190s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[66.231s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[66.273s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[66.306s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[66.321s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[66.344s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[66.361s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[66.390s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[66.428s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[66.467s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[66.507s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[66.540s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[66.572s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[66.604s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[66.638s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[66.661s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[66.711s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[66.860s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[66.860s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py'...
+[66.861s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py'...
+[66.861s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py'...
+[66.866s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py'...
+[66.922s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_controller

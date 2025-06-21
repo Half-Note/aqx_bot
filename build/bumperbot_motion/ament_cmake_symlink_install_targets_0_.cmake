@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_motion/libpd_motion_planner.so" "/home/fahad/bumperbot_ws/build/bumperbot_motion/libpure_pursuit.so" "TARGETS" "pd_motion_planner" "pure_pursuit" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/bumperbot_motion")

@@ -1,0 +1,8 @@
+{
+  "package_name": "bumperbot_msgs",
+  "non_idl_tuples": [
+    "/home/fahad/bumperbot_ws/src/bumperbot_msgs:action/Fibonacci.action",
+    "/home/fahad/bumperbot_ws/src/bumperbot_msgs:srv/AddTwoInts.srv",
+    "/home/fahad/bumperbot_ws/src/bumperbot_msgs:srv/GetTransform.srv"
+  ]
+}

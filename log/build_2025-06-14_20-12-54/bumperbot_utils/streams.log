@@ -1,0 +1,83 @@
+[0.021s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_utils
+[0.123s] -- The C compiler identification is GNU 13.3.0
+[0.241s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.471s] -- Detecting CXX compiler ABI info
+[0.666s] -- Detecting CXX compiler ABI info - done
+[0.678s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.681s] -- Detecting CXX compile features - done
+[0.686s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.917s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.055s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.128s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.209s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.243s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.450s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.456s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.639s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.676s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.876s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.881s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.951s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.997s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/jazzy/share/twist_mux_msgs/cmake)
+[2.099s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.124s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.548s] -- Configuring done (2.5s)
+[2.575s] -- Generating done (0.0s)
+[2.583s] -- Build files have been written to: /home/fahad/bumperbot_ws/build/bumperbot_utils
+[2.604s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_utils
+[2.606s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_utils -- -j2 -l2
+[2.729s] [ 50%] [32mBuilding CXX object CMakeFiles/safety_stop.dir/src/safety_stop.cpp.o[0m
+[19.928s] [100%] [32m[1mLinking CXX executable safety_stop[0m
+[20.775s] [100%] Built target safety_stop
+[20.840s] [100%] Built target ament_cmake_python_symlink_bumperbot_utils
+[21.195s] running egg_info
+[21.196s] creating bumperbot_utils.egg-info
+[21.222s] writing bumperbot_utils.egg-info/PKG-INFO
+[21.223s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[21.223s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[21.223s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[21.332s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[21.333s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[21.386s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[21.409s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_utils -- -j2 -l2
+[21.414s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_utils
+[21.428s] -- Install configuration: ""
+[21.429s] -- Execute custom install script
+[21.429s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[21.450s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[21.468s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[21.484s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[21.500s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[21.522s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[21.537s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[21.555s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[21.575s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[21.592s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[21.610s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[21.625s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[21.646s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[21.667s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[21.685s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[21.700s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[21.716s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[21.732s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[21.752s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[21.770s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[21.785s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[21.801s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[21.819s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[21.834s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[21.853s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[21.923s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[21.923s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py'...
+[21.923s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py'...
+[21.935s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_utils

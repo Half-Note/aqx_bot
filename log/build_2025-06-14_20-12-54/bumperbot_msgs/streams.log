@@ -1,0 +1,262 @@
+[0.064s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_msgs
+[0.265s] -- The C compiler identification is GNU 13.3.0
+[0.351s] -- The CXX compiler identification is GNU 13.3.0
+[0.380s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.558s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.559s] -- Detecting C compile features
+[0.563s] -- Detecting C compile features - done
+[0.591s] -- Detecting CXX compiler ABI info
+[0.796s] -- Detecting CXX compiler ABI info - done
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.813s] -- Detecting CXX compile features
+[0.818s] -- Detecting CXX compile features - done
+[0.821s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.054s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.158s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.233s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.300s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.331s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.462s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.498s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.636s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.798s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.217s] -- Found PythonExtra: /usr/bin/python3  
+[6.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.143s] -- Configuring done (7.0s)
+[7.353s] -- Generating done (0.2s)
+[7.413s] -- Build files have been written to: /home/fahad/bumperbot_ws/build/bumperbot_msgs
+[7.448s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fahad/bumperbot_ws/src/bumperbot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fahad/bumperbot_ws/install/bumperbot_msgs
+[7.449s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_msgs -- -j2 -l2
+[7.682s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.714s] [  1%] Built target ament_cmake_python_symlink_bumperbot_msgs
+[8.644s] running egg_info
+[8.646s] creating bumperbot_msgs.egg-info
+[8.732s] writing bumperbot_msgs.egg-info/PKG-INFO
+[8.733s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[8.735s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[8.735s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[8.769s] [  1%] Built target bumperbot_msgs__rosidl_generator_type_description
+[8.846s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.997s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[8.997s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[9.149s] [  3%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[9.190s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.312s] [  5%] Built target bumperbot_msgs__cpp
+[11.776s] [  7%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__description.c.o[0m
+[11.801s] [  9%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__functions.c.o[0m
+[12.187s] [ 11%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[12.470s] [ 12%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__description.c.o[0m
+[12.687s] [ 14%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[12.930s] [ 16%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[13.021s] [ 18%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__description.c.o[0m
+[13.182s] [ 20%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[13.452s] [ 22%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[13.630s] [ 24%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[13.852s] [ 24%] Built target bumperbot_msgs__rosidl_generator_c
+[13.905s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.832s] [ 27%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[17.033s] [ 29%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[18.088s] [ 31%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[19.206s] [ 33%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[19.373s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[19.431s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.660s] [ 37%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/action/detail/fibonacci__type_support_c.cpp.o[0m
+[23.303s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[24.455s] [ 40%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[25.997s] [ 42%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.215s] [ 42%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[26.257s] [ 44%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.067s] [ 46%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[30.287s] [ 48%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[31.236s] [ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[32.731s] [ 51%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.998s] [ 51%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[33.026s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[34.348s] [ 55%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/action/detail/fibonacci__type_support.c.o[0m
+[34.537s] [ 57%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[34.644s] [ 59%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[34.761s] [ 61%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[34.886s] [ 61%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[34.951s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.869s] [ 64%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/action/fibonacci__type_support.cpp.o[0m
+[36.055s] [ 66%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[36.169s] [ 68%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[36.279s] [ 70%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[36.396s] [ 70%] Built target bumperbot_msgs__rosidl_typesupport_c
+[36.438s] [ 72%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[37.693s] [ 74%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/action/detail/fibonacci__type_support.cpp.o[0m
+[39.363s] [ 75%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[40.041s] [ 77%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[40.791s] [ 79%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[40.973s] [ 79%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[41.024s] [ 79%] Built target bumperbot_msgs
+[41.067s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[43.648s] [ 81%] Built target bumperbot_msgs__py
+[43.689s] [ 83%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/action/_fibonacci_s.c.o[0m
+[44.197s] [ 85%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[44.507s] [ 87%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[44.872s] [ 88%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_py.so[0m
+[44.998s] [ 88%] Built target bumperbot_msgs__rosidl_generator_py
+[45.066s] [ 90%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[45.597s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[45.749s] [ 92%] Built target bumperbot_msgs_s__rosidl_typesupport_fastrtps_c
+[45.909s] [ 94%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[46.316s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[46.480s] [ 96%] Built target bumperbot_msgs_s__rosidl_typesupport_introspection_c
+[46.587s] [ 98%] [32mBuilding C object CMakeFiles/bumperbot_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[47.245s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so[0m
+[47.356s] [100%] Built target bumperbot_msgs_s__rosidl_typesupport_c
+[47.409s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_msgs -- -j2 -l2
+[47.441s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_msgs
+[47.481s] -- Install configuration: ""
+[47.484s] -- Execute custom install script
+[47.488s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[47.536s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.json
+[47.558s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.json
+[47.577s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.json
+[47.598s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h
+[47.620s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h
+[47.636s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h
+[47.655s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h
+[47.700s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[47.736s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[47.764s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[47.809s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[47.828s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[47.851s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[47.880s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[47.924s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[47.977s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[48.030s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[48.067s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[48.113s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[48.169s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[48.210s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[48.235s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[48.256s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp
+[48.281s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp
+[48.336s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp
+[48.377s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.hpp
+[48.434s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp
+[48.480s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[48.529s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[48.573s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[48.613s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[48.672s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[48.732s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[48.797s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[48.867s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[48.931s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[48.982s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[49.030s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[49.077s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[49.132s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.182s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[49.239s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[49.297s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[49.349s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.394s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[49.447s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[49.496s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[49.542s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[49.586s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[49.631s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[49.677s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[49.718s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[49.767s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[49.807s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[49.845s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[49.867s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py
+[49.899s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[49.952s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[49.997s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[50.043s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py
+[50.086s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py
+[50.124s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci_s.c
+[50.163s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[50.198s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.237s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[50.269s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py
+[50.301s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py
+[50.360s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[50.377s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py
+[50.405s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform_s.c
+[50.450s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.450s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.so
+[50.450s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.so
+[50.453s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl
+[50.485s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[50.541s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[50.578s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action
+[50.611s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[50.648s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[50.687s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[50.764s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[50.888s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[50.934s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[50.962s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[50.979s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[51.024s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[51.076s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[51.116s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[51.138s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[51.202s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[51.221s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[51.267s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[51.311s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.353s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.384s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[51.420s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[51.477s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[51.519s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[51.569s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[51.608s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[51.624s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[51.643s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[51.646s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[51.647s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[51.649s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[51.649s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[51.650s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[51.650s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[51.651s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[51.651s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[51.652s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[51.653s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[51.654s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[51.654s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[51.655s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[51.815s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs'...
+[51.815s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/__init__.py'...
+[51.815s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action'...
+[51.815s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/__init__.py'...
+[51.815s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/action/_fibonacci.py'...
+[51.815s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv'...
+[51.815s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/__init__.py'...
+[51.815s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_add_two_ints.py'...
+[51.816s] Compiling '/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages/bumperbot_msgs/srv/_get_transform.py'...
+[51.835s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[51.837s] -- Set non-toolchain portion of runtime path of "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[51.837s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[51.837s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[51.841s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[51.841s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[51.841s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[51.842s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[51.842s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[51.855s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[51.855s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[51.856s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[51.856s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[51.856s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[51.860s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[51.860s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[51.866s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[51.866s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[51.866s] -- Installing: /home/fahad/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[51.872s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_msgs

@@ -1,0 +1,35 @@
+[2.366s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
+[3.012s] running develop
+[3.450s] running egg_info
+[3.450s] creating bumperbot_py_examples.egg-info
+[3.496s] writing bumperbot_py_examples.egg-info/PKG-INFO
+[3.498s] writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+[3.498s] writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+[3.499s] writing requirements to bumperbot_py_examples.egg-info/requires.txt
+[3.499s] writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+[3.499s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.585s] reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.587s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[3.627s] running build_ext
+[3.627s] Creating /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot-py-examples.egg-link (link to .)
+[3.629s] Installing simple_action_client script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.630s] Installing simple_action_server script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.630s] Installing simple_lifecycle_node script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.630s] Installing simple_parameter script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.633s] Installing simple_publisher script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.633s] Installing simple_qos_publisher script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.633s] Installing simple_qos_subscriber script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.633s] Installing simple_service_client script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.636s] Installing simple_service_server script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.636s] Installing simple_subscriber script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.637s] Installing simple_tf_kinematics script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.637s] Installing simple_turtlesim_kinematics script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[3.637s] 
+[3.637s] Installed /home/fahad/bumperbot_ws/build/bumperbot_py_examples
+[3.637s] running symlink_data
+[3.637s] creating /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[3.638s] creating /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[3.638s] creating /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[3.638s] symbolically linking /home/fahad/bumperbot_ws/build/bumperbot_py_examples/resource/bumperbot_py_examples -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[3.643s] symbolically linking /home/fahad/bumperbot_ws/build/bumperbot_py_examples/package.xml -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[3.730s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data

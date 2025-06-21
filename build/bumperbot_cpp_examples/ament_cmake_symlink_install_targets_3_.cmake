@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_cpp_examples/libsimple_action_server.so" "/home/fahad/bumperbot_ws/build/bumperbot_cpp_examples/libsimple_action_client.so" "TARGETS" "simple_action_server" "simple_action_client" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

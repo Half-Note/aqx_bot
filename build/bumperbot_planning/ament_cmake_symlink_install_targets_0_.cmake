@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/fahad/bumperbot_ws/build/bumperbot_planning/libdijkstra_planner.so" "/home/fahad/bumperbot_ws/build/bumperbot_planning/liba_star_planner.so" "TARGETS" "dijkstra_planner" "a_star_planner" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/bumperbot_planning")

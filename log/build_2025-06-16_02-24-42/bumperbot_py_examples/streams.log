@@ -1,0 +1,80 @@
+[3.550s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build
+[4.444s] running develop
+[4.989s] Removing /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot-py-examples.egg-link (link to .)
+[5.070s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build
+[5.072s] Invoking command in '/home/fahad/bumperbot_ws/src/bumperbot_py_examples': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/fahad/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data --force
+[5.837s] running egg_info
+[5.888s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[5.889s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[5.890s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[5.891s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[5.892s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[5.991s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[5.994s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[5.994s] running build
+[5.995s] running build_py
+[5.995s] creating /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build
+[5.996s] creating /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[5.996s] creating /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.996s] copying bumperbot_py_examples/simple_subscriber.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.996s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.997s] copying bumperbot_py_examples/simple_qos_publisher.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.997s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.997s] copying bumperbot_py_examples/simple_lifecycle_node.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.998s] copying bumperbot_py_examples/simple_publisher.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.998s] copying bumperbot_py_examples/__init__.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.998s] copying bumperbot_py_examples/simple_qos_subscriber.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.999s] copying bumperbot_py_examples/simple_parameter.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.999s] copying bumperbot_py_examples/simple_action_server.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[5.999s] copying bumperbot_py_examples/simple_service_client.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[6.000s] copying bumperbot_py_examples/simple_service_server.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[6.000s] copying bumperbot_py_examples/simple_action_client.py -> /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[6.000s] running install
+[6.013s] running install_lib
+[6.052s] creating /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.053s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.053s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_tf_kinematics.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.054s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_qos_publisher.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.054s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.055s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_lifecycle_node.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.055s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.056s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.056s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_qos_subscriber.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.057s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.057s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_action_server.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.057s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_client.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.057s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_server.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.057s] copying /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_action_client.py -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples
+[6.058s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[6.059s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-312.pyc
+[6.060s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_qos_publisher.py to simple_qos_publisher.cpython-312.pyc
+[6.061s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-312.pyc
+[6.062s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_lifecycle_node.py to simple_lifecycle_node.cpython-312.pyc
+[6.064s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-312.pyc
+[6.065s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-312.pyc
+[6.066s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_qos_subscriber.py to simple_qos_subscriber.cpython-312.pyc
+[6.067s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[6.068s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_action_server.py to simple_action_server.cpython-312.pyc
+[6.068s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_client.py to simple_service_client.cpython-312.pyc
+[6.069s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_service_server.py to simple_service_server.cpython-312.pyc
+[6.070s] byte-compiling /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/simple_action_client.py to simple_action_client.cpython-312.pyc
+[6.071s] running install_data
+[6.071s] copying resource/bumperbot_py_examples -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[6.072s] copying package.xml -> /home/fahad/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[6.072s] running install_egg_info
+[6.108s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[6.112s] running install_scripts
+[6.405s] Installing simple_action_client script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.406s] Installing simple_action_server script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.407s] Installing simple_lifecycle_node script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.408s] Installing simple_parameter script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.408s] Installing simple_publisher script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.409s] Installing simple_qos_publisher script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.409s] Installing simple_qos_subscriber script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.409s] Installing simple_service_client script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.410s] Installing simple_service_server script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.411s] Installing simple_subscriber script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.411s] Installing simple_tf_kinematics script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.411s] Installing simple_turtlesim_kinematics script to /home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[6.412s] writing list of installed files to '/home/fahad/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[6.475s] Invoked command in '/home/fahad/bumperbot_ws/src/bumperbot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fahad/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/fahad/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/fahad/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data --force

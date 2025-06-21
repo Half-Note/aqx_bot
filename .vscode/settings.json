@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/build/bumperbot_py_examples",
+        "/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/build/bumperbot_py_examples",
+        "/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages",
+        "/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
