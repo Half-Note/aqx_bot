@@ -1,0 +1,2 @@
+[console_scripts]
+room_grid_navigator = room_grid_navigator.room_grid_navigator:main
