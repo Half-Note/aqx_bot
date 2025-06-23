@@ -1,0 +1,25 @@
+running egg_info
+writing ../build/room_grid_navigator/room_grid_navigator.egg-info/PKG-INFO
+writing dependency_links to ../build/room_grid_navigator/room_grid_navigator.egg-info/dependency_links.txt
+writing entry points to ../build/room_grid_navigator/room_grid_navigator.egg-info/entry_points.txt
+writing requirements to ../build/room_grid_navigator/room_grid_navigator.egg-info/requires.txt
+writing top-level names to ../build/room_grid_navigator/room_grid_navigator.egg-info/top_level.txt
+reading manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'
+writing manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying room_grid_navigator/room_grid_navigator_old.py -> /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator
+copying room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator
+running install
+running install_lib
+copying /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator/room_grid_navigator_old.py -> /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator
+copying /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator
+byte-compiling /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator/room_grid_navigator_old.py to room_grid_navigator_old.cpython-312.pyc
+byte-compiling /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator/room_grid_navigator.py to room_grid_navigator.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/room_grid_navigator/room_grid_navigator.egg-info to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info
+running install_scripts
+Installing room_grid_navigator script to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/room_grid_navigator
+writing list of installed files to '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/install.log'

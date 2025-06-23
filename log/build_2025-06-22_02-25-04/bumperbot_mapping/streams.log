@@ -1,0 +1,53 @@
+[0.146s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[0.791s] [  0%] Built target ament_cmake_python_symlink_bumperbot_mapping
+[0.826s] [100%] Built target mapping_with_known_poses
+[2.413s] running egg_info
+[2.590s] writing bumperbot_mapping.egg-info/PKG-INFO
+[2.591s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[2.591s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[2.953s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[2.954s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[3.097s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[3.300s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_mapping -- -j8 -l8
+[3.303s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_mapping
+[3.343s] -- Install configuration: ""
+[3.350s] -- Execute custom install script
+[3.351s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[3.351s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[3.357s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/PKG-INFO
+[3.357s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.358s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.358s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping-0.0.0-py3.12.egg-info/top_level.txt
+[3.363s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/__init__.py
+[3.363s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping/mapping_with_known_poses.py
+[3.369s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[3.370s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[3.371s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[3.374s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[3.377s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/map.pgm
+[3.401s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/map2.pgm
+[3.430s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house (Copy)/map.pgm
+[3.541s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house (Copy)/map.yaml
+[3.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[3.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[3.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[3.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[3.581s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[3.582s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[3.584s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[3.585s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[3.585s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[3.585s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[3.586s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[3.590s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[3.627s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[3.702s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[3.702s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[3.703s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[3.703s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[3.740s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[3.740s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[3.741s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[3.741s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[3.977s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages/bumperbot_mapping'...
+[4.422s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_mapping

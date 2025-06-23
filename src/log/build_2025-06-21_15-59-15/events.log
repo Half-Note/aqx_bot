@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.008266] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.008445] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.008516] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.008564] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.008604] (-) JobUnselected: {'identifier': 'bumperbot_firmware'}
+[0.008650] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.008686] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.008719] (-) JobUnselected: {'identifier': 'bumperbot_motion'}
+[0.008781] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.008823] (-) JobUnselected: {'identifier': 'bumperbot_navigation'}
+[0.008857] (-) JobUnselected: {'identifier': 'bumperbot_planning'}
+[0.008896] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.008936] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.008984] (room_grid_navigator) JobQueued: {'identifier': 'room_grid_navigator', 'dependencies': OrderedDict()}
+[0.009035] (room_grid_navigator) JobStarted: {'identifier': 'room_grid_navigator'}
+[0.110120] (-) TimerEvent: {}
+[0.210948] (-) TimerEvent: {}
+[0.314308] (-) TimerEvent: {}
+[0.415484] (-) TimerEvent: {}
+[0.516204] (-) TimerEvent: {}
+[0.617203] (-) TimerEvent: {}
+[0.717905] (-) TimerEvent: {}
+[0.823381] (-) TimerEvent: {}
+[0.932903] (-) TimerEvent: {}
+[1.033508] (-) TimerEvent: {}
+[1.134106] (-) TimerEvent: {}
+[1.238388] (-) TimerEvent: {}
+[1.340675] (-) TimerEvent: {}
+[1.447546] (-) TimerEvent: {}
+[1.551337] (-) TimerEvent: {}
+[1.656515] (-) TimerEvent: {}
+[1.757097] (-) TimerEvent: {}
+[1.861034] (-) TimerEvent: {}
+[1.961598] (-) TimerEvent: {}
+[2.065992] (-) TimerEvent: {}
+[2.166528] (-) TimerEvent: {}
+[2.267188] (-) TimerEvent: {}
+[2.377383] (-) TimerEvent: {}
+[2.479666] (-) TimerEvent: {}
+[2.588268] (-) TimerEvent: {}
+[2.696983] (-) TimerEvent: {}
+[2.803040] (-) TimerEvent: {}
+[2.903580] (-) TimerEvent: {}
+[3.004298] (-) TimerEvent: {}
+[3.104799] (-) TimerEvent: {}
+[3.205490] (-) TimerEvent: {}
+[3.306087] (-) TimerEvent: {}
+[3.406509] (-) TimerEvent: {}
+[3.507054] (-) TimerEvent: {}
+[3.613694] (-) TimerEvent: {}
+[3.718863] (-) TimerEvent: {}
+[3.820081] (-) TimerEvent: {}
+[3.920742] (-) TimerEvent: {}
+[4.023853] (-) TimerEvent: {}
+[4.125212] (-) TimerEvent: {}
+[4.225873] (-) TimerEvent: {}
+[4.331199] (-) TimerEvent: {}
+[4.435313] (-) TimerEvent: {}
+[4.537170] (-) TimerEvent: {}
+[4.638186] (-) TimerEvent: {}
+[4.739369] (-) TimerEvent: {}
+[4.840003] (-) TimerEvent: {}
+[4.945332] (-) TimerEvent: {}
+[5.064251] (-) TimerEvent: {}
+[5.168317] (-) TimerEvent: {}
+[5.274915] (-) TimerEvent: {}
+[5.375900] (-) TimerEvent: {}
+[5.478676] (-) TimerEvent: {}
+[5.579886] (-) TimerEvent: {}
+[5.681158] (-) TimerEvent: {}
+[5.786163] (-) TimerEvent: {}
+[5.888907] (-) TimerEvent: {}
+[5.990211] (-) TimerEvent: {}
+[6.091411] (-) TimerEvent: {}
+[6.206895] (-) TimerEvent: {}
+[6.312051] (-) TimerEvent: {}
+[6.417865] (-) TimerEvent: {}
+[6.520281] (-) TimerEvent: {}
+[6.622413] (-) TimerEvent: {}
+[6.723350] (-) TimerEvent: {}
+[6.827710] (-) TimerEvent: {}
+[6.929492] (-) TimerEvent: {}
+[7.030191] (-) TimerEvent: {}
+[7.135028] (-) TimerEvent: {}
+[7.235705] (-) TimerEvent: {}
+[7.337015] (-) TimerEvent: {}
+[7.443985] (-) TimerEvent: {}
+[7.547849] (-) TimerEvent: {}
+[7.648616] (-) TimerEvent: {}
+[7.752908] (-) TimerEvent: {}
+[7.853463] (-) TimerEvent: {}
+[7.960310] (-) TimerEvent: {}
+[8.060820] (-) TimerEvent: {}
+[8.161512] (-) TimerEvent: {}
+[8.262710] (-) TimerEvent: {}
+[8.366853] (-) TimerEvent: {}
+[8.471298] (-) TimerEvent: {}
+[8.572979] (-) TimerEvent: {}
+[8.673575] (-) TimerEvent: {}
+[8.796895] (-) TimerEvent: {}
+[8.915082] (-) TimerEvent: {}
+[9.016167] (-) TimerEvent: {}
+[9.116899] (-) TimerEvent: {}
+[9.202844] (room_grid_navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/room_grid_navigator', 'build', '--build-base', '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/build', 'install', '--record', '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fahad/bumperbot_ws/src/room_grid_navigator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/10822-5-fahad-pi_TIME37871723', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fahad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fahad/bumperbot_ws/install/bumperbot_planning/lib:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:/home/fahad/bumperbot_ws/install/bumperbot_motion/lib:/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fahad', 'OLDPWD': '/home/fahad/bumperbot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '10560', 'SYSTEMD_EXEC_PID': '10822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14204', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fahad/bumperbot_ws/src/install:/home/fahad/bumperbot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fahad', 'JOURNAL_STREAM': '9:343252', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fahad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/fahad/bumperbot_ws/install/bumperbot_localization/bin:/home/fahad/bumperbot_ws/install/bumperbot_firmware/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fahad-pi:@/tmp/.ICE-unix/10786,unix/fahad-pi:/tmp/.ICE-unix/10786', 'INVOCATION_ID': 'fbae0468c7874691bc514664824c67ce', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F66N82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fahad/bumperbot_ws/src/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_utils:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/home/fahad/bumperbot_ws/install/bumperbot_navigation:/home/fahad/bumperbot_ws/install/bumperbot_planning:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples:/home/fahad/bumperbot_ws/install/bumperbot_msgs:/home/fahad/bumperbot_ws/install/bumperbot_motion:/home/fahad/bumperbot_ws/install/bumperbot_bringup:/home/fahad/bumperbot_ws/install/bumperbot_mapping:/home/fahad/bumperbot_ws/install/bumperbot_localization:/home/fahad/bumperbot_ws/install/bumperbot_firmware:/home/fahad/bumperbot_ws/install/bumperbot_description:/home/fahad/bumperbot_ws/install/bumperbot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4dcbad3c-982a-4f87-8da6-42707321704c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fahad/bumperbot_ws/src/build/room_grid_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fahad/bumperbot_ws/install/bumperbot_utils:/home/fahad/bumperbot_ws/install/bumperbot_navigation:/home/fahad/bumperbot_ws/install/bumperbot_planning:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples:/home/fahad/bumperbot_ws/install/bumperbot_msgs:/home/fahad/bumperbot_ws/install/bumperbot_motion:/home/fahad/bumperbot_ws/install/bumperbot_bringup:/home/fahad/bumperbot_ws/install/bumperbot_mapping:/home/fahad/bumperbot_ws/install/bumperbot_localization:/home/fahad/bumperbot_ws/install/bumperbot_firmware:/home/fahad/bumperbot_ws/install/bumperbot_description:/home/fahad/bumperbot_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.231287] (-) TimerEvent: {}
+[9.333009] (-) TimerEvent: {}
+[9.434870] (-) TimerEvent: {}
+[9.535481] (-) TimerEvent: {}
+[9.638092] (-) TimerEvent: {}
+[9.739274] (-) TimerEvent: {}
+[9.842878] (-) TimerEvent: {}
+[9.944027] (-) TimerEvent: {}
+[10.044635] (-) TimerEvent: {}
+[10.148287] (-) TimerEvent: {}
+[10.256037] (-) TimerEvent: {}
+[10.357166] (-) TimerEvent: {}
+[10.459361] (-) TimerEvent: {}
+[10.560223] (-) TimerEvent: {}
+[10.673125] (-) TimerEvent: {}
+[10.775961] (-) TimerEvent: {}
+[10.879031] (-) TimerEvent: {}
+[10.979604] (-) TimerEvent: {}
+[11.069673] (room_grid_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[11.082896] (-) TimerEvent: {}
+[11.172187] (room_grid_navigator) StdoutLine: {'line': b'writing ../build/room_grid_navigator/room_grid_navigator.egg-info/PKG-INFO\n'}
+[11.173976] (room_grid_navigator) StdoutLine: {'line': b'writing dependency_links to ../build/room_grid_navigator/room_grid_navigator.egg-info/dependency_links.txt\n'}
+[11.175290] (room_grid_navigator) StdoutLine: {'line': b'writing entry points to ../build/room_grid_navigator/room_grid_navigator.egg-info/entry_points.txt\n'}
+[11.179078] (room_grid_navigator) StdoutLine: {'line': b'writing requirements to ../build/room_grid_navigator/room_grid_navigator.egg-info/requires.txt\n'}
+[11.179499] (room_grid_navigator) StdoutLine: {'line': b'writing top-level names to ../build/room_grid_navigator/room_grid_navigator.egg-info/top_level.txt\n'}
+[11.185872] (-) TimerEvent: {}
+[11.286431] (-) TimerEvent: {}
+[11.387000] (-) TimerEvent: {}
+[11.487618] (-) TimerEvent: {}
+[11.501834] (room_grid_navigator) StdoutLine: {'line': b"reading manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'\n"}
+[11.507338] (room_grid_navigator) StdoutLine: {'line': b"writing manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'\n"}
+[11.514396] (room_grid_navigator) StdoutLine: {'line': b'running build\n'}
+[11.515345] (room_grid_navigator) StdoutLine: {'line': b'running build_py\n'}
+[11.525267] (room_grid_navigator) StdoutLine: {'line': b'copying room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator\n'}
+[11.528919] (room_grid_navigator) StdoutLine: {'line': b'running install\n'}
+[11.587976] (-) TimerEvent: {}
+[11.594715] (room_grid_navigator) StdoutLine: {'line': b'running install_lib\n'}
+[11.688074] (-) TimerEvent: {}
+[11.788564] (-) TimerEvent: {}
+[11.792400] (room_grid_navigator) StdoutLine: {'line': b'copying /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator\n'}
+[11.798495] (room_grid_navigator) StdoutLine: {'line': b'byte-compiling /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator/room_grid_navigator.py to room_grid_navigator.cpython-312.pyc\n'}
+[11.850022] (room_grid_navigator) StdoutLine: {'line': b'running install_data\n'}
+[11.850481] (room_grid_navigator) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.888734] (-) TimerEvent: {}
+[11.952737] (room_grid_navigator) StdoutLine: {'line': b"removing '/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[11.956121] (room_grid_navigator) StdoutLine: {'line': b'Copying ../build/room_grid_navigator/room_grid_navigator.egg-info to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info\n'}
+[11.967105] (room_grid_navigator) StdoutLine: {'line': b'running install_scripts\n'}
+[11.988903] (-) TimerEvent: {}
+[12.089490] (-) TimerEvent: {}
+[12.196742] (-) TimerEvent: {}
+[12.297296] (-) TimerEvent: {}
+[12.399667] (-) TimerEvent: {}
+[12.500962] (-) TimerEvent: {}
+[12.603424] (-) TimerEvent: {}
+[12.704675] (-) TimerEvent: {}
+[12.810133] (-) TimerEvent: {}
+[12.911548] (-) TimerEvent: {}
+[13.015574] (-) TimerEvent: {}
+[13.016226] (room_grid_navigator) StdoutLine: {'line': b'Installing room_grid_navigator script to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/room_grid_navigator\n'}
+[13.018884] (room_grid_navigator) StdoutLine: {'line': b"writing list of installed files to '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/install.log'\n"}
+[13.116939] (-) TimerEvent: {}
+[13.193995] (room_grid_navigator) CommandEnded: {'returncode': 0}
+[13.220334] (-) TimerEvent: {}
+[13.322922] (-) TimerEvent: {}
+[13.371830] (room_grid_navigator) JobEnded: {'identifier': 'room_grid_navigator', 'rc': 0}
+[13.376522] (-) EventReactorShutdown: {}

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.003513] (-) JobUnselected: {'identifier': 'bumperbot_bringup'}
+[0.004197] (-) JobUnselected: {'identifier': 'bumperbot_controller'}
+[0.005607] (-) JobUnselected: {'identifier': 'bumperbot_cpp_examples'}
+[0.006490] (-) JobUnselected: {'identifier': 'bumperbot_description'}
+[0.006568] (-) JobUnselected: {'identifier': 'bumperbot_firmware'}
+[0.006614] (-) JobUnselected: {'identifier': 'bumperbot_localization'}
+[0.006679] (-) JobUnselected: {'identifier': 'bumperbot_mapping'}
+[0.006725] (-) JobUnselected: {'identifier': 'bumperbot_motion'}
+[0.006760] (-) JobUnselected: {'identifier': 'bumperbot_msgs'}
+[0.006796] (-) JobUnselected: {'identifier': 'bumperbot_navigation'}
+[0.006834] (-) JobUnselected: {'identifier': 'bumperbot_planning'}
+[0.006871] (-) JobUnselected: {'identifier': 'bumperbot_py_examples'}
+[0.006907] (-) JobUnselected: {'identifier': 'bumperbot_utils'}
+[0.006954] (room_grid_navigator) JobQueued: {'identifier': 'room_grid_navigator', 'dependencies': OrderedDict()}
+[0.007007] (room_grid_navigator) JobStarted: {'identifier': 'room_grid_navigator'}
+[0.101824] (-) TimerEvent: {}
+[0.218927] (-) TimerEvent: {}
+[0.322860] (-) TimerEvent: {}
+[0.425007] (-) TimerEvent: {}
+[0.527493] (-) TimerEvent: {}
+[0.631129] (-) TimerEvent: {}
+[0.732966] (-) TimerEvent: {}
+[0.836120] (-) TimerEvent: {}
+[0.940847] (-) TimerEvent: {}
+[1.041332] (-) TimerEvent: {}
+[1.144259] (-) TimerEvent: {}
+[1.248522] (-) TimerEvent: {}
+[1.352766] (-) TimerEvent: {}
+[1.453515] (-) TimerEvent: {}
+[1.557082] (-) TimerEvent: {}
+[1.663019] (-) TimerEvent: {}
+[1.763580] (-) TimerEvent: {}
+[1.864579] (-) TimerEvent: {}
+[1.980426] (-) TimerEvent: {}
+[2.080966] (-) TimerEvent: {}
+[2.181487] (-) TimerEvent: {}
+[2.285783] (-) TimerEvent: {}
+[2.387800] (-) TimerEvent: {}
+[2.488582] (-) TimerEvent: {}
+[2.592932] (-) TimerEvent: {}
+[2.695751] (-) TimerEvent: {}
+[2.797911] (-) TimerEvent: {}
+[2.898445] (-) TimerEvent: {}
+[2.999013] (-) TimerEvent: {}
+[3.105076] (-) TimerEvent: {}
+[3.210279] (-) TimerEvent: {}
+[3.323394] (-) TimerEvent: {}
+[3.430056] (-) TimerEvent: {}
+[3.530988] (-) TimerEvent: {}
+[3.637765] (-) TimerEvent: {}
+[3.738421] (-) TimerEvent: {}
+[3.839058] (-) TimerEvent: {}
+[3.939781] (-) TimerEvent: {}
+[4.044040] (-) TimerEvent: {}
+[4.145115] (-) TimerEvent: {}
+[4.251778] (-) TimerEvent: {}
+[4.352382] (-) TimerEvent: {}
+[4.454337] (-) TimerEvent: {}
+[4.557765] (-) TimerEvent: {}
+[4.658886] (-) TimerEvent: {}
+[4.760306] (-) TimerEvent: {}
+[4.864163] (-) TimerEvent: {}
+[4.966965] (-) TimerEvent: {}
+[5.068186] (-) TimerEvent: {}
+[5.145732] (room_grid_navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/room_grid_navigator', 'build', '--build-base', '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/build', 'install', '--record', '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fahad/bumperbot_ws/src/room_grid_navigator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/10822-5-fahad-pi_TIME37871723', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fahad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fahad/bumperbot_ws/install/bumperbot_planning/lib:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples/lib:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib:/home/fahad/bumperbot_ws/install/bumperbot_motion/lib:/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/fahad', 'OLDPWD': '/home/fahad/bumperbot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '10560', 'SYSTEMD_EXEC_PID': '10822', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14204', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fahad/bumperbot_ws/src/install:/home/fahad/bumperbot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fahad', 'JOURNAL_STREAM': '9:343252', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fahad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/fahad/bumperbot_ws/install/bumperbot_localization/bin:/home/fahad/bumperbot_ws/install/bumperbot_firmware/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fahad-pi:@/tmp/.ICE-unix/10786,unix/fahad-pi:/tmp/.ICE-unix/10786', 'INVOCATION_ID': 'fbae0468c7874691bc514664824c67ce', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F66N82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fahad/bumperbot_ws/src/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_utils:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/home/fahad/bumperbot_ws/install/bumperbot_navigation:/home/fahad/bumperbot_ws/install/bumperbot_planning:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples:/home/fahad/bumperbot_ws/install/bumperbot_msgs:/home/fahad/bumperbot_ws/install/bumperbot_motion:/home/fahad/bumperbot_ws/install/bumperbot_bringup:/home/fahad/bumperbot_ws/install/bumperbot_mapping:/home/fahad/bumperbot_ws/install/bumperbot_localization:/home/fahad/bumperbot_ws/install/bumperbot_firmware:/home/fahad/bumperbot_ws/install/bumperbot_description:/home/fahad/bumperbot_ws/install/bumperbot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:4dcbad3c-982a-4f87-8da6-42707321704c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fahad/bumperbot_ws/src/build/room_grid_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_py_examples/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_msgs/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages:/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/fahad/bumperbot_ws/install/bumperbot_utils:/home/fahad/bumperbot_ws/install/bumperbot_navigation:/home/fahad/bumperbot_ws/install/bumperbot_planning:/home/fahad/bumperbot_ws/install/bumperbot_cpp_examples:/home/fahad/bumperbot_ws/install/bumperbot_msgs:/home/fahad/bumperbot_ws/install/bumperbot_motion:/home/fahad/bumperbot_ws/install/bumperbot_bringup:/home/fahad/bumperbot_ws/install/bumperbot_mapping:/home/fahad/bumperbot_ws/install/bumperbot_localization:/home/fahad/bumperbot_ws/install/bumperbot_firmware:/home/fahad/bumperbot_ws/install/bumperbot_description:/home/fahad/bumperbot_ws/install/bumperbot_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.170806] (-) TimerEvent: {}
+[5.271405] (-) TimerEvent: {}
+[5.375770] (-) TimerEvent: {}
+[5.478416] (-) TimerEvent: {}
+[5.585016] (-) TimerEvent: {}
+[5.685654] (-) TimerEvent: {}
+[5.787808] (-) TimerEvent: {}
+[5.888412] (-) TimerEvent: {}
+[5.989627] (-) TimerEvent: {}
+[6.097332] (-) TimerEvent: {}
+[6.197909] (-) TimerEvent: {}
+[6.298568] (-) TimerEvent: {}
+[6.399782] (-) TimerEvent: {}
+[6.500373] (-) TimerEvent: {}
+[6.606779] (-) TimerEvent: {}
+[6.707365] (-) TimerEvent: {}
+[6.810697] (-) TimerEvent: {}
+[6.914192] (-) TimerEvent: {}
+[7.015364] (-) TimerEvent: {}
+[7.114156] (room_grid_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[7.115558] (-) TimerEvent: {}
+[7.223030] (-) TimerEvent: {}
+[7.235760] (room_grid_navigator) StdoutLine: {'line': b'writing ../build/room_grid_navigator/room_grid_navigator.egg-info/PKG-INFO\n'}
+[7.236435] (room_grid_navigator) StdoutLine: {'line': b'writing dependency_links to ../build/room_grid_navigator/room_grid_navigator.egg-info/dependency_links.txt\n'}
+[7.246284] (room_grid_navigator) StdoutLine: {'line': b'writing entry points to ../build/room_grid_navigator/room_grid_navigator.egg-info/entry_points.txt\n'}
+[7.246820] (room_grid_navigator) StdoutLine: {'line': b'writing requirements to ../build/room_grid_navigator/room_grid_navigator.egg-info/requires.txt\n'}
+[7.247210] (room_grid_navigator) StdoutLine: {'line': b'writing top-level names to ../build/room_grid_navigator/room_grid_navigator.egg-info/top_level.txt\n'}
+[7.326520] (-) TimerEvent: {}
+[7.431784] (-) TimerEvent: {}
+[7.535188] (-) TimerEvent: {}
+[7.567846] (room_grid_navigator) StdoutLine: {'line': b"reading manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'\n"}
+[7.573048] (room_grid_navigator) StdoutLine: {'line': b"writing manifest file '../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'\n"}
+[7.576612] (room_grid_navigator) StdoutLine: {'line': b'running build\n'}
+[7.578584] (room_grid_navigator) StdoutLine: {'line': b'running build_py\n'}
+[7.581355] (room_grid_navigator) StdoutLine: {'line': b'copying room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator\n'}
+[7.584104] (room_grid_navigator) StdoutLine: {'line': b'running install\n'}
+[7.608964] (room_grid_navigator) StdoutLine: {'line': b'running install_lib\n'}
+[7.636161] (-) TimerEvent: {}
+[7.724111] (room_grid_navigator) StdoutLine: {'line': b'copying /home/fahad/bumperbot_ws/src/build/room_grid_navigator/build/lib/room_grid_navigator/room_grid_navigator.py -> /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator\n'}
+[7.730646] (room_grid_navigator) StdoutLine: {'line': b'byte-compiling /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator/room_grid_navigator.py to room_grid_navigator.cpython-312.pyc\n'}
+[7.737977] (-) TimerEvent: {}
+[7.739532] (room_grid_navigator) StdoutLine: {'line': b'running install_data\n'}
+[7.743138] (room_grid_navigator) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.841611] (-) TimerEvent: {}
+[7.870443] (room_grid_navigator) StdoutLine: {'line': b"removing '/home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.878826] (room_grid_navigator) StdoutLine: {'line': b'Copying ../build/room_grid_navigator/room_grid_navigator.egg-info to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info\n'}
+[7.888908] (room_grid_navigator) StdoutLine: {'line': b'running install_scripts\n'}
+[7.942967] (-) TimerEvent: {}
+[8.046032] (-) TimerEvent: {}
+[8.146566] (-) TimerEvent: {}
+[8.252989] (-) TimerEvent: {}
+[8.358424] (-) TimerEvent: {}
+[8.461141] (-) TimerEvent: {}
+[8.568753] (-) TimerEvent: {}
+[8.671922] (-) TimerEvent: {}
+[8.703041] (room_grid_navigator) StdoutLine: {'line': b'Installing room_grid_navigator script to /home/fahad/bumperbot_ws/src/install/room_grid_navigator/lib/room_grid_navigator\n'}
+[8.703601] (room_grid_navigator) StdoutLine: {'line': b"writing list of installed files to '/home/fahad/bumperbot_ws/src/build/room_grid_navigator/install.log'\n"}
+[8.772413] (-) TimerEvent: {}
+[8.863239] (room_grid_navigator) CommandEnded: {'returncode': 0}
+[8.873451] (-) TimerEvent: {}
+[8.943201] (room_grid_navigator) JobEnded: {'identifier': 'room_grid_navigator', 'rc': 0}
+[8.948479] (-) EventReactorShutdown: {}

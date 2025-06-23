@@ -10,6 +10,10 @@
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+/home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/map.pgm
+/home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/map2.pgm
+/home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house (Copy)/map.pgm
+/home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house (Copy)/map.yaml
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
 /home/fahad/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm

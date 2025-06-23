@@ -1,22 +1,36 @@
 import rclpy
 from rclpy.node import Node
-from rclpy.action import ActionClient
-from nav2_msgs.action import NavigateToPose
+from rclpy.action import ActionClient, ActionServer, GoalResponse, CancelResponse
+from nav2_msgs.action import NavigateToPose, FollowWaypoints
 from geometry_msgs.msg import PoseStamped
 from visualization_msgs.msg import Marker, MarkerArray
 from tf2_ros import Buffer, TransformListener
 from rclpy.duration import Duration
 import math
+import time
 
 
 class RoomGridNavigator(Node):
     def __init__(self):
         super().__init__('room_grid_navigator')
 
+        # Action client to send single navigation goals
         self.nav_to_pose_client = ActionClient(self, NavigateToPose, '/navigate_to_pose')
+
+        # Action server to receive FollowWaypoints goals (triggered by Nav2 RViz panel button)
+        self.waypoint_action_server = ActionServer(
+            self,
+            FollowWaypoints,
+            '/follow_waypoints',
+            self.execute_waypoint_callback,
+            goal_callback=self.goal_response_callback,
+            cancel_callback=self.cancel_callback,
+        )
+
+        # Publisher to visualize waypoints as markers in RViz
         self.marker_pub = self.create_publisher(MarkerArray, '/waypoints', 10)
 
-        # Room bounds
+        # Room bounds (example)
         self.bottom_left = (-9.11, -5.38)
         self.top_right = (-2.99, -2.0)
 
@@ -24,24 +38,73 @@ class RoomGridNavigator(Node):
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
-        # Subscribe to RViz goal
-        self.goal_sub = self.create_subscription(
-            PoseStamped,
-            '/goal_pose',
-            self.goal_callback,
-            10
-        )
+    def goal_response_callback(self, goal_request):
+        self.get_logger().info('Received FollowWaypoints goal request.')
+        return GoalResponse.ACCEPT
 
-    def goal_callback(self, msg):
-        x = msg.pose.position.x
-        y = msg.pose.position.y
-        self.get_logger().info(f"Received goal from RViz: ({x:.2f}, {y:.2f})")
+    def cancel_callback(self, goal_handle):
+        self.get_logger().info('Received cancel request for FollowWaypoints goal.')
+        return CancelResponse.ACCEPT
 
-        if self.is_inside_room(x, y):
-            self.get_logger().info("Goal is inside the room. Proceeding with entry and grid exploration.")
-            self.go_to_entry_point_and_explore(x, y)
-        else:
-            self.get_logger().info("Goal is outside the room. Ignoring.")
+    def execute_waypoint_callback(self, goal_handle):
+        self.get_logger().info('Executing FollowWaypoints action.')
+
+        # Step 1: Get current robot position
+        robot_x, robot_y = self.get_current_robot_position()
+
+        if not self.is_inside_room(robot_x, robot_y):
+            self.get_logger().warn(f"Robot at ({robot_x:.2f}, {robot_y:.2f}) is not inside the known room bounds.")
+            goal_handle.abort()
+            return FollowWaypoints.Result()
+
+        self.get_logger().info(f"Robot at ({robot_x:.2f}, {robot_y:.2f}) inside room. Generating waypoints.")
+
+        # Step 2: Generate grid points and publish markers
+        grid_points = self.generate_grid(3, 3)
+        self.publish_markers(grid_points)
+
+        # Step 3: Navigate to each waypoint sequentially
+        for gx, gy in grid_points:
+            if goal_handle.is_cancel_requested:
+                self.get_logger().info('Waypoint following canceled by client.')
+                goal_handle.canceled()
+                return FollowWaypoints.Result()
+
+            pose = self.to_pose(gx, gy)
+            goal = NavigateToPose.Goal()
+            goal.pose = pose
+
+            self.get_logger().info(f'Navigating to waypoint ({gx:.2f}, {gy:.2f})')
+
+            self.nav_to_pose_client.wait_for_server()
+
+            send_goal_future = self.nav_to_pose_client.send_goal_async(goal)
+            rclpy.spin_until_future_complete(self, send_goal_future)
+            goal_handle_nav = send_goal_future.result()
+
+            if not goal_handle_nav.accepted:
+                self.get_logger().error('Navigation goal rejected by Nav2.')
+                goal_handle.abort()
+                return FollowWaypoints.Result()
+
+            get_result_future = goal_handle_nav.get_result_async()
+            rclpy.spin_until_future_complete(self, get_result_future)
+            result = get_result_future.result().result
+
+            if result.error_code != 0:
+                self.get_logger().warn(f'Failed to reach waypoint with error code {result.error_code}. Continuing to next waypoint.')
+                continue
+
+            self.get_logger().info('Reached waypoint. Simulating sensor/action wait...')
+            self.perform_fake_action_at_waypoint()
+
+        self.get_logger().info('Finished all waypoints.')
+        goal_handle.succeed()
+        return FollowWaypoints.Result()
+
+    def perform_fake_action_at_waypoint(self):
+        # Simulate sensor reading or data collection
+        time.sleep(2)  # 2 seconds wait
 
     def is_inside_room(self, x, y):
         return self.bottom_left[0] <= x <= self.top_right[0] and self.bottom_left[1] <= y <= self.top_right[1]
@@ -93,32 +156,7 @@ class RoomGridNavigator(Node):
             marker.color.b = 0.0
             marker_array.markers.append(marker)
         self.marker_pub.publish(marker_array)
-        self.get_logger().info(f"Published {len(waypoint_list)} grid point markers")
-
-    def go_to_entry_point_and_explore(self, entry_x, entry_y):
-        self.nav_to_pose_client.wait_for_server()
-        goal_msg = NavigateToPose.Goal()
-        goal_msg.pose = self.to_pose(entry_x, entry_y)
-        self.get_logger().info(f"Navigating to entry point: ({entry_x:.2f}, {entry_y:.2f})")
-        future = self.nav_to_pose_client.send_goal_async(goal_msg)
-        future.add_done_callback(lambda f: self._on_nav_to_pose_complete(f))
-
-    def _on_nav_to_pose_complete(self, future):
-        goal_handle = future.result()
-        if not goal_handle.accepted:
-            self.get_logger().error('Initial navigation goal rejected')
-            return
-        self.get_logger().info('Initial goal accepted')
-        result_future = goal_handle.get_result_async()
-        result_future.add_done_callback(lambda f: self._on_reach_room_and_explore())
-
-    def _on_reach_room_and_explore(self):
-        self.get_logger().info('Reached entry point. Starting nearest-neighbor grid navigation.')
-        grid_points = self.generate_grid(3, 3)
-        self.publish_markers(grid_points)
-        self.visited = []
-        self.unvisited = [self.to_pose(x, y) for x, y in grid_points]
-        self.send_next_nearest()
+        self.get_logger().info(f'Published {len(waypoint_list)} grid point markers.')
 
     def get_current_robot_position(self):
         try:
@@ -128,68 +166,13 @@ class RoomGridNavigator(Node):
             y = trans.transform.translation.y
             return x, y
         except Exception as e:
-            self.get_logger().warn(f"Failed to get robot position: {e}")
-            # fallback: use origin or last known point
+            self.get_logger().warn(f'Failed to get robot position: {e}')
+            # fallback default position
             return 0.0, 0.0
 
-    def send_next_nearest(self):
-        if not self.unvisited:
-            self.get_logger().info("ompleted all waypoints.")
-            return
 
-        robot_x, robot_y = self.get_current_robot_position()
-
-        # Find nearest unvisited waypoint
-        def distance(pose):
-            dx = pose.pose.position.x - robot_x
-            dy = pose.pose.position.y - robot_y
-            return math.hypot(dx, dy)
-
-        next_pose = min(self.unvisited, key=distance)
-        self.unvisited.remove(next_pose)
-        self.visited.append(next_pose)
-
-        self.get_logger().info(f"Navigating to waypoint at ({next_pose.pose.position.x:.2f}, "
-                               f"{next_pose.pose.position.y:.2f})")
-        goal_msg = NavigateToPose.Goal()
-        goal_msg.pose = next_pose
-
-        self.nav_to_pose_client.wait_for_server()
-        self._nav_future = self.nav_to_pose_client.send_goal_async(goal_msg)
-        self._nav_future.add_done_callback(self.goal_response_callback_nearest)
-
-    def goal_response_callback_nearest(self, future):
-        goal_handle = future.result()
-        if not goal_handle.accepted:
-            self.get_logger().error("Navigation goal rejected")
-            return
-        self.get_logger().info("Navigation goal accepted")
-        result_future = goal_handle.get_result_async()
-        result_future.add_done_callback(self.result_callback_nearest)
-
-    def result_callback_nearest(self, future):
-        result = future.result().result
-        if result.error_code == 0:
-            self.get_logger().info("Reached waypoint. Performing action...")
-            self.perform_action_at_waypoint()
-        else:
-            self.get_logger().error(f"Failed to reach waypoint. Code: {result.error_code}, Msg: '{result.error_msg}'")
-            self.send_next_nearest()
-
-    def perform_action_at_waypoint(self):
-        self.get_logger().info("Simulating sensor reading or action...")
-
-        # Replace this with actual logic (e.g., air quality reading, data logging, camera snapshot)
-        self.action_timer = self.create_timer(2.0, self.action_complete_callback)
-
-    def action_complete_callback(self):
-        self.get_logger().info("Action complete. Proceeding to next waypoint.")
-        self.destroy_timer(self.action_timer)
-        self.send_next_nearest()
-
-
-def main():
-    rclpy.init()
+def main(args=None):
+    rclpy.init(args=args)
     navigator = RoomGridNavigator()
     rclpy.spin(navigator)
     navigator.destroy_node()
