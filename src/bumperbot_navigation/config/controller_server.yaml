@@ -10,7 +10,8 @@ controller_server:
     goal_checker_plugins: ["general_goal_checker"]
     controller_plugins: ["FollowPath"]
     odom_topic: /bumperbot_controller/odom
-
+    use_reversing: true  # temp-fahad <--- ENABLES REVERSE
+    min_speed: -0.5      # temp-fahad <--- allow backward speed
     # Progress checker parameters
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
@@ -69,6 +70,18 @@ controller_server:
       cost_scaling_gain: 1.0
       inflation_cost_scaling_factor: 3.0
 
+      #temp-fahad start
+      allow_reversing: true       # <--- Critical!
+      use_approach_angles: true
+      max_speed: 0.8
+      min_speed: -0.5  
+    RegulatedPurePursuitController:
+      allow_reversing: true       # <--- Critical!
+      use_approach_angles: true
+      max_speed: 0.8
+      min_speed: -0.5             # <--- Must be negative for reversing
+      #temp-fahad end
+      
 local_costmap:
   local_costmap:
     ros__parameters:

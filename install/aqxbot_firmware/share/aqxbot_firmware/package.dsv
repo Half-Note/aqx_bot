@@ -1,0 +1,6 @@
+source;share/aqxbot_firmware/hook/pythonpath.ps1
+source;share/aqxbot_firmware/hook/pythonpath.dsv
+source;share/aqxbot_firmware/hook/pythonpath.sh
+source;share/aqxbot_firmware/hook/ament_prefix_path.ps1
+source;share/aqxbot_firmware/hook/ament_prefix_path.dsv
+source;share/aqxbot_firmware/hook/ament_prefix_path.sh

@@ -1,0 +1,22 @@
+[1.566s] Invoking command in '/home/fahad/bumperbot_ws/src/aqxbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/aqxbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aqxbot_firmware build --build-base /home/fahad/bumperbot_ws/build/aqxbot_firmware/build install --record /home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log --single-version-externally-managed install_data
+[1.992s] running egg_info
+[2.022s] writing ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/PKG-INFO
+[2.023s] writing dependency_links to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/dependency_links.txt
+[2.024s] writing entry points to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/entry_points.txt
+[2.024s] writing requirements to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/requires.txt
+[2.024s] writing top-level names to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/top_level.txt
+[2.083s] reading manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+[2.084s] writing manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+[2.084s] running build
+[2.085s] running build_py
+[2.085s] running install
+[2.092s] running install_lib
+[2.125s] running install_data
+[2.125s] running install_egg_info
+[2.158s] removing '/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info' (and everything under it)
+[2.158s] Copying ../../build/aqxbot_firmware/aqxbot_firmware.egg-info to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info
+[2.159s] running install_scripts
+[2.377s] Installing rplidar_receiver script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[2.377s] Installing tf_test script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[2.378s] writing list of installed files to '/home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log'
+[2.423s] Invoked command in '/home/fahad/bumperbot_ws/src/aqxbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/aqxbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aqxbot_firmware build --build-base /home/fahad/bumperbot_ws/build/aqxbot_firmware/build install --record /home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log --single-version-externally-managed install_data

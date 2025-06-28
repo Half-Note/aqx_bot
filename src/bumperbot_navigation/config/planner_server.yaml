@@ -3,7 +3,7 @@ planner_server:
     expected_planner_frequency: 1.0
     use_sim_time: true
     planner_plugins: ["GridBased"]
-
+    allow_reverse_motion: true # temp-fahad
     # Dijkstra Planner parameters
     # GridBased:
     #   plugin: "bumperbot_planning::DijkstraPlanner"
