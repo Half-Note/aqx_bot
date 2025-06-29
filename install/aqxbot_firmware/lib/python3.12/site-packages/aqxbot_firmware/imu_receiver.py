@@ -60,7 +60,7 @@ class MPUReceiver(Node):
 
             self.mag_pub.publish(mag_msg)
 
-            self.get_logger().info(f"IMU published | Temp: {temp:.2f}°C")
+            #self.get_logger().info(f"IMU published | Temp: {temp:.2f}°C")
 
         except socket.timeout:
             pass

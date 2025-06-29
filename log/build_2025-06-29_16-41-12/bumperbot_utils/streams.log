@@ -1,0 +1,41 @@
+[0.387s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[0.589s] [  0%] Built target ament_cmake_python_symlink_bumperbot_utils
+[0.664s] [100%] Built target safety_stop
+[1.345s] running egg_info
+[1.438s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.438s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.439s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.649s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.650s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.733s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[1.918s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_utils -- -j8 -l8
+[1.919s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_utils
+[1.951s] -- Install configuration: ""
+[1.954s] -- Execute custom install script
+[1.954s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils-0.0.0-py3.12.egg-info/top_level.txt
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/__init__.py
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils/safety_stop.py
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[1.968s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[1.971s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[1.971s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[1.971s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[1.972s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[1.972s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[2.009s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[2.010s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[2.010s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[2.010s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[2.129s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_utils/lib/python3.12/site-packages/bumperbot_utils'...
+[2.255s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_utils

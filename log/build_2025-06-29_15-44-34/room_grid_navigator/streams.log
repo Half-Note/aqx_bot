@@ -1,0 +1,21 @@
+[4.919s] Invoking command in '/home/fahad/bumperbot_ws/src/room_grid_navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/room_grid_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/room_grid_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/room_grid_navigator build --build-base /home/fahad/bumperbot_ws/build/room_grid_navigator/build install --record /home/fahad/bumperbot_ws/build/room_grid_navigator/install.log --single-version-externally-managed install_data
+[6.136s] running egg_info
+[6.191s] writing ../../build/room_grid_navigator/room_grid_navigator.egg-info/PKG-INFO
+[6.192s] writing dependency_links to ../../build/room_grid_navigator/room_grid_navigator.egg-info/dependency_links.txt
+[6.193s] writing entry points to ../../build/room_grid_navigator/room_grid_navigator.egg-info/entry_points.txt
+[6.193s] writing requirements to ../../build/room_grid_navigator/room_grid_navigator.egg-info/requires.txt
+[6.193s] writing top-level names to ../../build/room_grid_navigator/room_grid_navigator.egg-info/top_level.txt
+[6.299s] reading manifest file '../../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'
+[6.300s] writing manifest file '../../build/room_grid_navigator/room_grid_navigator.egg-info/SOURCES.txt'
+[6.301s] running build
+[6.301s] running build_py
+[6.303s] running install
+[6.318s] running install_lib
+[6.395s] running install_data
+[6.396s] running install_egg_info
+[6.484s] removing '/home/fahad/bumperbot_ws/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info' (and everything under it)
+[6.485s] Copying ../../build/room_grid_navigator/room_grid_navigator.egg-info to /home/fahad/bumperbot_ws/install/room_grid_navigator/lib/python3.12/site-packages/room_grid_navigator-0.0.0-py3.12.egg-info
+[6.489s] running install_scripts
+[7.026s] Installing room_grid_navigator script to /home/fahad/bumperbot_ws/install/room_grid_navigator/lib/room_grid_navigator
+[7.027s] writing list of installed files to '/home/fahad/bumperbot_ws/build/room_grid_navigator/install.log'
+[7.121s] Invoked command in '/home/fahad/bumperbot_ws/src/room_grid_navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/room_grid_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/room_grid_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/room_grid_navigator build --build-base /home/fahad/bumperbot_ws/build/room_grid_navigator/build install --record /home/fahad/bumperbot_ws/build/room_grid_navigator/install.log --single-version-externally-managed install_data

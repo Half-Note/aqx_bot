@@ -9,6 +9,7 @@ setup.py
 ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/top_level.txt
 ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/zip-safe
 aqxbot_firmware/__init__.py
+aqxbot_firmware/controller.py
 aqxbot_firmware/imu_receiver.py
 aqxbot_firmware/rplidar_receiver.py
 aqxbot_firmware/tf_test.py

@@ -1,0 +1,54 @@
+[0.532s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_motion -- -j8 -l8
+[0.783s] [  0%] Built target ament_cmake_python_symlink_bumperbot_motion
+[0.812s] [ 50%] Built target pd_motion_planner
+[0.817s] [100%] Built target pure_pursuit
+[1.780s] running egg_info
+[1.937s] writing bumperbot_motion.egg-info/PKG-INFO
+[1.937s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[1.937s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[2.232s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[2.234s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[2.350s] [100%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[2.452s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_motion -- -j8 -l8
+[2.456s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_motion
+[2.566s] -- Install configuration: ""
+[2.567s] -- Execute custom install script
+[2.567s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+[2.567s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+[2.567s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/PKG-INFO
+[2.568s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.568s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.579s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion-0.0.0-py3.12.egg-info/top_level.txt
+[2.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/__init__.py
+[2.580s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pd_motion_planner.py
+[2.581s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion/pure_pursuit.py
+[2.581s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion//motion_planner_plugins.xml
+[2.582s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so
+[2.583s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/libpure_pursuit.so
+[2.585s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+[2.586s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pure_pursuit.hpp
+[2.586s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+[2.586s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/lib/bumperbot_motion/pure_pursuit.py
+[2.586s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.sh
+[2.587s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.dsv
+[2.587s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[2.606s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[2.606s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[2.607s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[2.607s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[2.607s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[2.608s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[2.608s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[2.608s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[2.609s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[2.610s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[2.612s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[2.613s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_motion
+[2.613s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.616s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_libraries-extras.cmake
+[2.617s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.622s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[2.625s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[2.638s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[2.767s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_motion/lib/python3.12/site-packages/bumperbot_motion'...
+[2.853s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_motion

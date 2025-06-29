@@ -1,0 +1,58 @@
+[0.074s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[0.303s] [ 33%] Built target kalman_filter
+[0.341s] [ 66%] Built target imu_republisher
+[0.367s] [100%] Built target odometry_motion_model
+[0.411s] [100%] Built target ament_cmake_python_symlink_bumperbot_localization
+[1.199s] running egg_info
+[1.283s] writing bumperbot_localization.egg-info/PKG-INFO
+[1.289s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[1.296s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[1.566s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.568s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[1.798s] [100%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[1.984s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_localization -- -j8 -l8
+[1.989s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_localization
+[2.083s] -- Install configuration: ""
+[2.083s] -- Execute custom install script
+[2.083s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[2.085s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[2.090s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[2.091s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[2.105s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[2.105s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization-0.0.0-py3.12.egg-info/top_level.txt
+[2.105s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/__init__.py
+[2.105s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/imu_republisher.py
+[2.105s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/kalman_filter.py
+[2.106s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization/odometry_motion_model.py
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[2.111s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[2.112s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[2.112s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[2.116s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[2.116s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[2.117s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[2.117s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[2.117s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[2.118s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[2.120s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[2.121s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[2.121s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[2.122s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[2.122s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[2.122s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[2.123s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[2.126s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[2.127s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[2.127s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[2.127s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[2.190s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[2.190s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[2.190s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[2.190s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[2.233s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_localization/lib/python3.12/site-packages/bumperbot_localization'...
+[2.334s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_localization

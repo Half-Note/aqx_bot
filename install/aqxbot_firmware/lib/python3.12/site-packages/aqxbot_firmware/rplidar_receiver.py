@@ -51,7 +51,7 @@ class LidarReceiver(Node):
             msg.range_min = 0.05
             msg.range_max = self.range_max
             msg.ranges = ranges
-            self.get_logger().info("pub info")
+            #self.get_logger().info("pub info")
             self.publisher_.publish(msg)
 
         except socket.timeout:

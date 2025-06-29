@@ -23,6 +23,7 @@ setup(
             'rplidar_receiver = aqxbot_firmware.rplidar_receiver:main',
             'tf_test = aqxbot_firmware.tf_test:main',
             'imu_receiver = aqxbot_firmware.imu_receiver:main',
+            'controller = aqxbot_firmware.controller:main',
         ],
     },
 )

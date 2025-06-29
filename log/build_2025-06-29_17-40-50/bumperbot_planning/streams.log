@@ -1,0 +1,55 @@
+[0.067s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_planning -- -j8 -l8
+[0.927s] [  0%] Built target ament_cmake_python_symlink_bumperbot_planning
+[0.927s] [ 50%] Built target dijkstra_planner
+[0.927s] [100%] Built target a_star_planner
+[1.128s] running egg_info
+[1.200s] writing bumperbot_planning.egg-info/PKG-INFO
+[1.200s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[1.204s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[1.413s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[1.414s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[1.595s] [100%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[1.663s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_planning -- -j8 -l8
+[1.666s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_planning
+[1.794s] -- Install configuration: ""
+[1.794s] -- Execute custom install script
+[1.795s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[1.795s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[1.809s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/PKG-INFO
+[1.809s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.810s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.810s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning-0.0.0-py3.12.egg-info/top_level.txt
+[1.815s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/__init__.py
+[1.816s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/a_star_planner.py
+[1.817s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning/dijkstra_planner.py
+[1.818s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning//global_planner_plugins.xml
+[1.823s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so
+[1.824s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/liba_star_planner.so
+[1.831s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[1.831s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[1.832s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[1.835s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[1.837s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[1.837s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+[1.850s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+[1.851s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[1.852s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[1.863s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[1.864s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[1.864s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[1.865s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[1.865s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[1.866s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[1.867s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[1.867s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[1.868s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[1.931s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[1.931s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+[1.933s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.938s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[1.940s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.943s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[1.943s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[1.945s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[1.974s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_planning/lib/python3.12/site-packages/bumperbot_planning'...
+[2.098s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_planning

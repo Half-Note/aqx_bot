@@ -1,0 +1,30 @@
+[4.533s] Invoking command in '/home/fahad/bumperbot_ws/src/aqxbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/aqxbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aqxbot_firmware build --build-base /home/fahad/bumperbot_ws/build/aqxbot_firmware/build install --record /home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log --single-version-externally-managed install_data
+[6.225s] running egg_info
+[6.334s] writing ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/PKG-INFO
+[6.334s] writing dependency_links to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/dependency_links.txt
+[6.335s] writing entry points to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/entry_points.txt
+[6.339s] writing requirements to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/requires.txt
+[6.340s] writing top-level names to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/top_level.txt
+[6.582s] reading manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+[6.583s] writing manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+[6.583s] running build
+[6.584s] running build_py
+[6.584s] copying aqxbot_firmware/rplidar_receiver.py -> /home/fahad/bumperbot_ws/build/aqxbot_firmware/build/lib/aqxbot_firmware
+[6.585s] copying aqxbot_firmware/imu_receiver.py -> /home/fahad/bumperbot_ws/build/aqxbot_firmware/build/lib/aqxbot_firmware
+[6.589s] running install
+[6.615s] running install_lib
+[6.745s] copying /home/fahad/bumperbot_ws/build/aqxbot_firmware/build/lib/aqxbot_firmware/rplidar_receiver.py -> /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware
+[6.749s] copying /home/fahad/bumperbot_ws/build/aqxbot_firmware/build/lib/aqxbot_firmware/imu_receiver.py -> /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware
+[6.750s] byte-compiling /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/rplidar_receiver.py to rplidar_receiver.cpython-312.pyc
+[6.754s] byte-compiling /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/imu_receiver.py to imu_receiver.cpython-312.pyc
+[6.758s] running install_data
+[6.759s] running install_egg_info
+[6.885s] removing '/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info' (and everything under it)
+[6.887s] Copying ../../build/aqxbot_firmware/aqxbot_firmware.egg-info to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info
+[6.890s] running install_scripts
+[7.369s] Installing controller script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[7.370s] Installing imu_receiver script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[7.371s] Installing rplidar_receiver script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[7.371s] Installing tf_test script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+[7.373s] writing list of installed files to '/home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log'
+[7.491s] Invoked command in '/home/fahad/bumperbot_ws/src/aqxbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fahad/bumperbot_ws/build/aqxbot_firmware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aqxbot_firmware build --build-base /home/fahad/bumperbot_ws/build/aqxbot_firmware/build install --record /home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log --single-version-externally-managed install_data

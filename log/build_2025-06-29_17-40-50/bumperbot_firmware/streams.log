@@ -1,0 +1,58 @@
+[0.078s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[0.356s] [ 33%] Built target simple_serial_transmitter
+[0.391s] [ 66%] Built target bumperbot_firmware
+[0.404s] [100%] Built target simple_serial_receiver
+[0.450s] [100%] Built target ament_cmake_python_symlink_bumperbot_firmware
+[1.171s] running egg_info
+[1.234s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.235s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.235s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.443s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.444s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.625s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[1.702s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_firmware -- -j8 -l8
+[1.704s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_firmware
+[1.854s] -- Install configuration: ""
+[1.860s] -- Execute custom install script
+[1.862s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[1.865s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[1.871s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/PKG-INFO
+[1.879s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.881s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.882s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware-0.0.0-py3.12.egg-info/top_level.txt
+[1.895s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/__init__.py
+[1.896s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/mpu6050_driver.py
+[1.896s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_receiver.py
+[1.897s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware/simple_serial_transmitter.py
+[1.898s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware//bumperbot_interface.xml
+[1.898s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[1.899s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[1.910s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[1.911s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[1.912s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[1.912s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[1.913s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/bin/simple_serial_receiver
+[1.913s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/bin/simple_serial_transmitter
+[1.914s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[1.914s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[1.914s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[1.915s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[1.915s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[1.916s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[1.923s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[1.924s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[1.925s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[1.925s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[1.925s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[1.926s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[1.926s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[1.963s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[1.964s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[1.964s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.969s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[1.973s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[1.974s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[2.001s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_firmware/lib/python3.12/site-packages/bumperbot_firmware'...
+[2.038s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_firmware

@@ -1,4 +1,5 @@
 /home/fahad/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/config/rplidar_a1.yaml
+/home/fahad/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/real_robot.launch copy.py
 /home/fahad/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/real_robot.launch.py
 /home/fahad/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/launch/simulated_robot.launch.py
 /home/fahad/bumperbot_ws/install/bumperbot_bringup/share/ament_index/resource_index/package_run_dependencies/bumperbot_bringup

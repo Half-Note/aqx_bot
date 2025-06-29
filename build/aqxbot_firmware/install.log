@@ -2,11 +2,13 @@
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/tf_test.py
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/imu_receiver.py
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__init__.py
+/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/controller.py
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/udp_data_test.py
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/rplidar_receiver.cpython-312.pyc
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/tf_test.cpython-312.pyc
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/imu_receiver.cpython-312.pyc
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/__init__.cpython-312.pyc
+/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/controller.cpython-312.pyc
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware/__pycache__/udp_data_test.cpython-312.pyc
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/share/ament_index/resource_index/packages/aqxbot_firmware
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/share/aqxbot_firmware/package.xml
@@ -17,6 +19,7 @@
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info/entry_points.txt
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info/zip-safe
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info/SOURCES.txt
+/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware/controller
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware/imu_receiver
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware/rplidar_receiver
 /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware/tf_test

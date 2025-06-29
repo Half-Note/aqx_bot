@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/PKG-INFO
+writing dependency_links to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/dependency_links.txt
+writing entry points to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/entry_points.txt
+writing requirements to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/requires.txt
+writing top-level names to ../../build/aqxbot_firmware/aqxbot_firmware.egg-info/top_level.txt
+reading manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+writing manifest file '../../build/aqxbot_firmware/aqxbot_firmware.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/aqxbot_firmware/aqxbot_firmware.egg-info to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/python3.12/site-packages/aqxbot_firmware-0.0.0-py3.12.egg-info
+running install_scripts
+Installing controller script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+Installing imu_receiver script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+Installing rplidar_receiver script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+Installing tf_test script to /home/fahad/bumperbot_ws/install/aqxbot_firmware/lib/aqxbot_firmware
+writing list of installed files to '/home/fahad/bumperbot_ws/build/aqxbot_firmware/install.log'

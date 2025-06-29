@@ -1,0 +1,59 @@
+[0.085s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[0.297s] [ 33%] Built target simple_controller
+[0.341s] [ 33%] Built target ament_cmake_python_symlink_bumperbot_controller
+[0.365s] [ 66%] Built target twist_relay
+[0.416s] [100%] Built target noisy_controller
+[1.176s] running egg_info
+[1.245s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.245s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.245s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.483s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.491s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.654s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.730s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fahad/bumperbot_ws/build/bumperbot_controller -- -j8 -l8
+[1.736s] Invoking command in '/home/fahad/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_controller
+[1.957s] -- Install configuration: ""
+[1.958s] -- Execute custom install script
+[1.958s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.959s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.960s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/PKG-INFO
+[1.961s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.962s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.964s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller-0.0.0-py3.12.egg-info/top_level.txt
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/__init__.py
+[1.965s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/noisy_controller.py
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/simple_controller.py
+[1.966s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller/twist_relay.py
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[1.967s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[1.968s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[1.968s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[1.969s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[1.969s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.969s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[1.970s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.970s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.971s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.973s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[1.973s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[1.973s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[1.973s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[1.974s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[1.975s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[1.975s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.975s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.976s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.976s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.977s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.978s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.978s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.978s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.979s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.979s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.980s] -- Symlinking: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[2.001s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[2.002s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[2.002s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[2.003s] -- Up-to-date symlink: /home/fahad/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.023s] Listing '/home/fahad/bumperbot_ws/install/bumperbot_controller/lib/python3.12/site-packages/bumperbot_controller'...
+[2.198s] Invoked command in '/home/fahad/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fahad/bumperbot_ws/install/room_grid_navigator:/home/fahad/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fahad/bumperbot_ws/build/bumperbot_controller
