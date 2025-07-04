@@ -20,14 +20,24 @@
             </xacro:unless>
         </xacro:if>
 
-        <!-- ros2_control Real Robot -->
+        <!-- ros2_control Real Robot --><!-- fahad temp
         <xacro:unless value="$(arg is_sim)">
             <hardware>
                 <plugin>bumperbot_firmware/BumperbotInterface</plugin>
                 <param name="port">/dev/arduino</param>
             </hardware>
         </xacro:unless>
-        
+        -->
+    <xacro:unless value="$(arg is_sim)">
+        <hardware>
+            <plugin>bumperbot_firmware/BumperbotInterface</plugin>
+            <param name="ip_address">192.168.1.229</param>
+            <param name="udp_port">8100</param>
+            <param name="timeout">0.1</param>
+        </hardware>
+    </xacro:unless>
+
+
         <!-- ros2_control Common Interfaces -->
         <joint name="wheel_right_joint">
             <command_interface name="velocity">

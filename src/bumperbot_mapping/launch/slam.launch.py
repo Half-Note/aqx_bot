@@ -18,7 +18,7 @@ def generate_launch_description():
 
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
-        default_value="true"
+        default_value="true" #fahad changed to false
     )
 
     slam_config_arg = DeclareLaunchArgument(
@@ -39,8 +39,8 @@ def generate_launch_description():
         parameters=[
             {"save_map_timeout": 5.0},
             {"use_sim_time": use_sim_time},
-            {"free_thresh_default", "0.196"},
-            {"occupied_thresh_default", "0.65"},
+            {"free_thresh_default": "0.196"}, #fahad change comma and coln
+            {"occupied_thresh_default": "0.65"}, #fahad change comma and coln
         ],
     )
 

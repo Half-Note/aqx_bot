@@ -88,8 +88,24 @@ def generate_launch_description():
         ]
     )
 
+    slam = TimerAction(
+        period=2.0,
+        actions=[
+            IncludeLaunchDescription(
+                PythonLaunchDescriptionSource(
+                    os.path.join(
+                        get_package_share_directory("bumperbot_mapping"),
+                        "launch",
+                        "slam.launch.py"
+                    )
+                ),
+                condition=IfCondition(use_slam)
+            )
+        ]
+    )
+
     localization = TimerAction(
-        period=6.0,
+        period=2.0,
         actions=[
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(
@@ -107,21 +123,7 @@ def generate_launch_description():
         ]
     )
 
-    slam = TimerAction(
-        period=6.0,
-        actions=[
-            IncludeLaunchDescription(
-                PythonLaunchDescriptionSource(
-                    os.path.join(
-                        get_package_share_directory("bumperbot_mapping"),
-                        "launch",
-                        "slam.launch.py"
-                    )
-                ),
-                condition=IfCondition(use_slam)
-            )
-        ]
-    )
+
 
     navigation = TimerAction(
         period=10.0,
@@ -162,8 +164,8 @@ def generate_launch_description():
         rplidar_receiver_node,
         controller,
         joystick,
-        localization,
         slam,
+        localization,
         navigation,
         rviz
     ])

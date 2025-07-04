@@ -48,7 +48,10 @@ install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
   ${PROJECT_NAME}/noisy_controller.py
   ${PROJECT_NAME}/twist_relay.py
+  ${PROJECT_NAME}/joint_state_from_udp.py
+  ${PROJECT_NAME}/simple_controller_odom.py
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 ament_package()

@@ -44,7 +44,7 @@ def generate_launch_description():
     
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
-        default_value="True",
+        default_value="False", #fahad temp
     )
     use_simple_controller_arg = DeclareLaunchArgument(
         "use_simple_controller",
@@ -97,6 +97,21 @@ def generate_launch_description():
         condition=UnlessCondition(use_simple_controller),
     )
 
+    udp_joint_state_node = Node(
+        package="bumperbot_controller",
+        executable="joint_state_from_udp.py",
+        name="joint_state_from_udp",
+        parameters=[{"use_sim_time": use_sim_time}]
+    )
+
+    simple_controller_odom_node = Node(
+        package="bumperbot_controller",
+        executable="simple_controller_odom.py",
+        name="simple_controller_odom",
+        parameters=[{"use_sim_time": use_sim_time}]
+    )
+
+
     simple_controller = GroupAction( # will not run when simple controller is false
         condition=IfCondition(use_simple_controller),
         actions=[
@@ -142,6 +157,8 @@ def generate_launch_description():
             wheel_separation_error_arg,
             joint_state_broadcaster_spawner,
             wheel_controller_spawner,
+            udp_joint_state_node,
+            simple_controller_odom_node,
             simple_controller,
             noisy_controller_launch,
         ]
