@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import JointState
@@ -33,30 +34,41 @@ class SimpleControllerOdom(Node):
 
     def joint_callback(self, msg):
         if len(msg.position) < 2:
+            self.get_logger().warn("JointState message has less than 2 positions.")
             return
 
-        dt = Time.from_msg(msg.header.stamp) - self.prev_time
-        self.prev_time = Time.from_msg(msg.header.stamp)
+        msg_time = Time.from_msg(msg.header.stamp)
+        if msg.header.stamp.sec == 0 and msg.header.stamp.nanosec == 0:
+            self.get_logger().warn("Received joint_states with zero timestamp, using current time instead.")
+            msg_time = self.get_clock().now()
 
-        # Right is index 0, Left is index 1
+        dt = msg_time - self.prev_time
+        dt_sec = dt.nanoseconds / S_TO_NS
+        self.get_logger().debug(f"msg_time: {msg_time.nanoseconds}, prev_time: {self.prev_time.nanoseconds}, dt_sec: {dt_sec}")
+
+        if dt_sec <= 0:
+            self.get_logger().warn(f"Non-positive dt_sec: {dt_sec}, skipping update.")
+            return
+
+        self.prev_time = msg_time
+
         right_pos = msg.position[0]
         left_pos = msg.position[1]
+        self.get_logger().debug(f"Positions - Right: {right_pos}, Left: {left_pos}")
 
         d_right = right_pos - self.prev_right_pos
         d_left = left_pos - self.prev_left_pos
+        self.get_logger().debug(f"Delta positions - d_right: {d_right}, d_left: {d_left}")
+
         self.prev_right_pos = right_pos
         self.prev_left_pos = left_pos
 
-        dt_sec = dt.nanoseconds / S_TO_NS
-        if dt_sec <= 0:
-            return
-
-        # Compute motion
         v_right = self.wheel_radius * (d_right / dt_sec)
         v_left = self.wheel_radius * (d_left / dt_sec)
 
         v = (v_right + v_left) / 2.0
         omega = (v_right - v_left) / self.wheel_base
+        self.get_logger().debug(f"Velocities - v_right: {v_right}, v_left: {v_left}, v: {v}, omega: {omega}")
 
         ds = (self.wheel_radius * (d_right + d_left)) / 2.0
         dtheta = (self.wheel_radius * (d_right - d_left)) / self.wheel_base
@@ -64,11 +76,12 @@ class SimpleControllerOdom(Node):
         self.theta += dtheta
         self.x += ds * math.cos(self.theta)
         self.y += ds * math.sin(self.theta)
+        self.get_logger().debug(f"Pose update - x: {self.x}, y: {self.y}, theta: {self.theta}")
 
-        # Publish odometry
-        now = self.get_clock().now().to_msg()
+        now_msg = msg_time.to_msg()
+
         odom_msg = Odometry()
-        odom_msg.header.stamp = now
+        odom_msg.header.stamp = now_msg
         odom_msg.header.frame_id = "odom"
         odom_msg.child_frame_id = "base_footprint"
         odom_msg.pose.pose.position.x = self.x
@@ -83,19 +96,21 @@ class SimpleControllerOdom(Node):
         odom_msg.twist.twist.linear.x = v
         odom_msg.twist.twist.angular.z = omega
         self.odom_pub.publish(odom_msg)
+        self.get_logger().info(f"Published odom at time {now_msg.sec}.{now_msg.nanosec}")
 
-        # Publish TF
         t = TransformStamped()
-        t.header.stamp = now
+        t.header.stamp = now_msg
         t.header.frame_id = "odom"
         t.child_frame_id = "base_footprint"
         t.transform.translation.x = self.x
         t.transform.translation.y = self.y
+        t.transform.translation.z = 0.0
         t.transform.rotation.x = q[0]
         t.transform.rotation.y = q[1]
         t.transform.rotation.z = q[2]
         t.transform.rotation.w = q[3]
         self.br.sendTransform(t)
+        self.get_logger().info(f"Published TF from odom to base_footprint at time {now_msg.sec}.{now_msg.nanosec}")
 
 def main():
     rclpy.init()
